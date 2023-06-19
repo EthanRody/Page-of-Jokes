@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    background-color: #fb8500;
+}
+
+.title {
+    text-align: center;
+    font-size: 62px;
+    margin: 0;
+}
+
+.joke-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joke {
+    background-color: #8ecae6;
+    padding: 5px 40px;
+    margin: 10px;
+    border-radius: 20px;
+}
